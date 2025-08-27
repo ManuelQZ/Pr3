@@ -1,0 +1,2 @@
+
+CalculadoraSalario.main()
