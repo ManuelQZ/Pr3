@@ -45,8 +45,8 @@ defmodule CalcularNota do
     (n1 * 0.15) + (n2 * 0.30) + (n3 * 0.35) + (n4 * 0.20)
   end
 
-  def estado(nota) when nota >= 3.0, do: "APROBADO ✅"
-  def estado(_), do: "REPROBADO ❌"
+  def estado(nota) when nota >= 3.0, do: "PASOOOO MANOOOO PASOOO"
+  def estado(_), do: "SALGASE DE LA CARRERA!!!!"
 
 end
 
