@@ -34,7 +34,7 @@ defmodule CalculadoraSalario do
         aplicar_retry(campo)
     end
   end
-manul
+
   def convertir_a_flotante(valor_str, campo) do
     case Float.parse(valor_str) do
       {numero, _} -> numero
