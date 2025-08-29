@@ -3,13 +3,13 @@ defmodule CalcularNota do
     IO.puts("Curso 1")
     {n1, n2, n3, n4} = pedir_notas(1)
     nota1 = calcular_nota_curso1(n1, n2, n3, n4)
-    IO.puts("Nota definitiva del curso 1: #{Float.round(nota1, 2)}")
+    IO.puts("Nota definitiva curso 1: #{Float.round(nota1, 2)}")
     IO.puts("Resultado: #{estado(nota1)}")
 
     IO.puts("Curso 2")
     {m1, m2, m3, m4} = pedir_notas(2)
     nota2 = calcular_nota_curso2(m1, m2, m3, m4)
-    IO.puts("Nota definitiva del curso 2: #{Float.round(nota2, 2)}")
+    IO.puts("Nota definitiva curso 2: #{Float.round(nota2, 2)}")
     IO.puts("Resultado: #{estado(nota2)}")
   end
 
